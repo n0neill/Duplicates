@@ -1,6 +1,7 @@
 # Duplicates
 
 Terminal options:
+
 -l:
 Identifies and provides the relative pathnames of duplicate files in a given directory.
 
@@ -16,5 +17,5 @@ Checks to see if directory contains duplicate files
 -a: 
 Lists statistics (Number of files,  total size in bytes, number of unique files and minimum possible file size) INCLUDING hidden files
 
-default
+default:
 Lists statistics (Number of files,  total size in bytes, number of unique files and minimum possible file size) EXCLUDING hidden files
