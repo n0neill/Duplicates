@@ -1,6 +1,3 @@
-//  CITS2002 Project 2 2021
-//  Name(s):             Nathan O'Neill
-//  Student number(s):   23206294
 #include "duplicates.h"
 
 int main (int argc, char *argv[]) {
@@ -10,6 +7,7 @@ int main (int argc, char *argv[]) {
         options(argc, argv);
     } else {
         fprintf(stderr, "ERROR");
+        exit(EXIT_FAILURE);
     }
     return 0;
 }
