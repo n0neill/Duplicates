@@ -2,7 +2,8 @@
 PROJECT = duplicates
 HEADERS = $(PROJECT).h
 OBJ = duplicates.o list.o hashtable.o globals.o strSHA2.o options.o
-C11 = cc -std=gnu99
+# use -std=gnu99 if using WSL
+C11 = cc -std=c11
 CFLAGS = -Wall -pedantic -Werror
 
 $(PROJECT) : $(OBJ)
