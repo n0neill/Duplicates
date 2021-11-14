@@ -1,4 +1,4 @@
-# Makefile for building our duplicates program.
+# Makefile for building the duplicates program.
 PROJECT = duplicates
 HEADERS = $(PROJECT).h
 OBJ = duplicates.o list.o hashtable.o globals.o strSHA2.o options.o
